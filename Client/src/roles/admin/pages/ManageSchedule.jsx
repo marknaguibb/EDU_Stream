@@ -1,5 +1,4 @@
 import { useState } from "react";
-import AdminNavbar from "../components/AdminNavbar";
 // Ai made the whole schedule page 
 const DAY_LABELS = ["Saturday", "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"];
 
@@ -181,7 +180,6 @@ export default function ManageSchedule() {
 
   return (
     <>
-      <AdminNavbar />
       <div className="container page-with-navbar">
         <div className="notice-banner notice-error">
           This screen is not connected to the server. Changes made here are temporary and will not be saved.

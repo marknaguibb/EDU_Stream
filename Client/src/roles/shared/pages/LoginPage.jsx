@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import loginHero from "../assets/images/login.jpg";
+import loginHero from "../../../assets/images/login.jpg";
 const demoAccounts = {
   student: {
     role: "student",

@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import AdminNavbar from "../components/AdminNavbar";
-import { apiRequest } from "../api";
+import { apiRequest } from "../../shared/api.js";
 
 const PAYMENT_STATUSES = ["Paid", "Pending", "Scholarship"];
 
@@ -123,7 +122,6 @@ export default function ManageStudents() {
 
   return (
     <>
-      <AdminNavbar />
       <div className="container page-with-navbar">
         {loadError && <div className="notice-banner notice-error">{loadError}</div>}
         <div className="notice-banner notice-error">

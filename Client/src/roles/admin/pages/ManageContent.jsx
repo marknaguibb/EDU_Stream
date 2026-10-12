@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import AdminNavbar from "../components/AdminNavbar";
-import { apiRequest } from "../api";
+import { apiRequest } from "../../shared/api.js";
 
 const DEFAULT_TYPES = ["Assignment", "Lecture"];
 
@@ -154,7 +153,6 @@ export default function ManageContent() {
 
   return (
     <>
-      <AdminNavbar />
       <div className="container page-with-navbar">
         {loadError && <div className="notice-banner notice-error">{loadError}</div>}
         <div className="notice-banner notice-error">

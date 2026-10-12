@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { apiRequest } from "../api";
+import { apiRequest } from "../../shared/api.js";
 
 function AdminDashboard() {
   const [summary, setSummary] = useState(null);

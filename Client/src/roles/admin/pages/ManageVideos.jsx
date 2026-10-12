@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { apiRequest } from "../api";
+import { apiRequest } from "../../shared/api.js";
 
 function ManageVideos() {
   const [searchTerm, setSearchTerm] = useState("");

@@ -17,21 +17,6 @@ function StudentNavbar() {
               Home
             </NavLink>
 
-            <NavLink className="app-nav-link" to="/videos">
-              Videos
-            </NavLink>
-
-            <NavLink className="app-nav-link" to="/schedule">
-              Schedule
-            </NavLink>
-
-            <NavLink className="app-nav-link" to="/assignments">
-              Assignments
-            </NavLink>
-
-            <NavLink className="app-nav-link" to="/grades">
-              Grades
-            </NavLink>
           </nav>
 
           <div className="app-header-actions">

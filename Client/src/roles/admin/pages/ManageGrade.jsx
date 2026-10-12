@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import AdminNavbar from "../components/AdminNavbar";
-import { apiRequest } from "../api";
+import { apiRequest } from "../../shared/api.js";
 const SUBJECTS = ["Computer Science", "Mathematics", "Physics", "English"];
 
 export default function ManageGrades() {
@@ -318,8 +317,6 @@ export default function ManageGrades() {
 
   return (
     <>
-      <AdminNavbar />
-
       <div className="container page-with-navbar">
         <div className="admin-page-header">
           <h1>Manage Grades</h1>

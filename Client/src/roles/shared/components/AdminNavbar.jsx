@@ -55,11 +55,11 @@ function AdminNavbar() {
               Videos
             </NavLink>
 
-            <NavLink className="app-nav-link" to="/admin/ManageSchedule" onClick={closeMenu}>
+            <NavLink className="app-nav-link" to="/admin/schedule" onClick={closeMenu}>
               Schedule
             </NavLink>
 
-            <NavLink className="app-nav-link" to="/admin/ManageContent" onClick={closeMenu}>
+            <NavLink className="app-nav-link" to="/admin/content" onClick={closeMenu}>
               Content
             </NavLink>
 
@@ -67,7 +67,7 @@ function AdminNavbar() {
               Grades
             </NavLink>
 
-            <NavLink className="app-nav-link" to="/admin/ManageStudents" onClick={closeMenu}>
+            <NavLink className="app-nav-link" to="/admin/students" onClick={closeMenu}>
               Students
             </NavLink>
           </nav>
